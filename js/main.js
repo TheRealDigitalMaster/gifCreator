@@ -11,7 +11,8 @@ $("button").click(function() {
 // original was -->
 // var myRequest = $.get("http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=rlRZi86BD52T3q4elCzQC3kyLMWOLj0b&limit="5);
 
-var myRequest = $.get("http://api.giphy.com/v1/gifs/search?q=" + searchQ + "&api_key=rlRZi86BD52T3q4elCzQC3kyLMWOLj0b&limit=" + num);
+var myRequest = $.get("
+https://rule34.us/index.php?r=posts/index&q={prompt}" + searchQ + "&api_key=rlRZi86BD52T3q4elCzQC3kyLMWOLj0b&limit=" + num);
 
 myRequest.done(
 	function(data) { 
